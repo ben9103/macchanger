@@ -23,5 +23,6 @@ This project is a powerful and versatile command-line tool designed for network 
 # Tutorial for Installation
 * (Coming soon)
 
-# Author: Ephraim Norbert
+# Author: 
+* Ephraim Norbert
 
