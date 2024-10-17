@@ -1,0 +1,39 @@
+# # Menu interfaces
+# def main():
+#     while True:
+#         print("\nNetwork Menu Commands")
+#         print("1. Display network configuration")
+#         print("2. Check IP address")
+#         print("3. Change MAC address")
+#         print("4. Change IP address")
+#         print("5. Exit")
+
+#         choice = input("Enter the command: ")
+
+#         if choice == '1':
+#             display_network_conf()
+
+#         elif choice == '2':
+#             interface = input("Enter the network interface you want to change (e.g., eth0, wlan0): ")
+#             check_ip(interface)
+
+#         elif choice == '3':
+#             interface = input("Enter the network interface you want to change (e.g., eth0, wlan0): ")
+#             new_mac = input("Enter the new MAC address (e.g., 00:11:22:33:44:55): ")
+#             change_mac(interface, new_mac)
+
+#         elif choice == '4':
+#             interface = input("Enter the network interface you want to change (e.g., eth0, wlan0): ")
+#             new_ip = input("Enter the new IP address (e.g., 192.168.1.100): ")
+#             netmask = input("Enter the subnet mask (e.g., 255.255.255.0): ")
+#             change_ip(interface, new_ip, netmask)
+
+#         elif choice == '5':
+#             print("Exiting program.")
+#             sys.exit()
+
+#         else:
+#             print("Invalid choice. Please try again.")
+
+# if __name__ == "__main__":
+#     main()
